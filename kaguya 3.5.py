@@ -52,7 +52,7 @@ while True:
         start=str(float(start)+0.5)
         x=0
     except ValueError:
-      print("Cannot convert", start, "to a string, a decimal number.\n")
+      print("Cannot convert", start, "to a decimal number. Please enter in a valid number.\n")
       print("Input the number of the chapter that you wish to download (Example: 50.5), or a range of chapters (Example: 20-53).")
       raw=input("Chapter(s): ")
       continue
